@@ -60,7 +60,7 @@ int main()
                                 (u_axe_y <= b_circle_y) && 
                                 (b_axe_y >= u_circle_y));
 
-            //  LOGIC FOR DRAW CIRCLE and Rectangles AND AVOID PASS THROUGH THE EDGES OF WINDOW WITH ANOY DIMENTIONS
+            //  LOGIC FOR DRAW CIRCLE sand Rectangles AND AVOID PASS THROUGH THE EDGES OF WINDOW WITH ANOY DIMENTIONS
             DrawCircle(circle_x, circle_y, radius, BLUE);
             DrawRectangle(axePos_x, axePos_y, rectWidth, rectheight, RED);
 
