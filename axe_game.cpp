@@ -26,6 +26,7 @@ int main()
     int u_axe_y = axePos_y;
     int b_axe_y = axePos_y + height;
     
+    // here we set the collision for axe
     bool collision_with_axe = ((l_axe_x <= r_circle_x) && 
                                 (r_axe_x >= l_circle_x) && 
                                 (u_axe_y <= b_circle_y) && 
@@ -59,7 +60,7 @@ int main()
                                 (u_axe_y <= b_circle_y) && 
                                 (b_axe_y >= u_circle_y));
 
-            //  LOGIC FOR DRAW CIRCLE AND AVOID PASS THROUGH THE EDGES OF WINDOW WITH ANOY DIMENTIONS
+            //  LOGIC FOR DRAW CIRCLE and Rectangles AND AVOID PASS THROUGH THE EDGES OF WINDOW WITH ANOY DIMENTIONS
             DrawCircle(circle_x, circle_y, radius, BLUE);
             DrawRectangle(axePos_x, axePos_y, rectWidth, rectheight, RED);
 
