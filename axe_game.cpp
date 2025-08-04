@@ -2,14 +2,14 @@
 int main()
 {
     //window initialization
-    int width = 800;
-    int height = 450;
+    int width = 600;
+    int height = 400;
     InitWindow(width, height, "Chetana's Window");
 
     //Variables to draw a Circle
-     int circle_x = width/2;
-     int circle_y = height/2;
      int radius = 25;
+     int circle_x = width/2;
+     int circle_y = height - radius;
      int l_circle_x = circle_x - radius;
      int r_circle_x = circle_x + radius;
      int u_circle_y = circle_y - radius;
