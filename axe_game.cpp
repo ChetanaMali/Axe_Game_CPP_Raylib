@@ -24,7 +24,7 @@ int main()
     int l_axe_x = axePos_x;
     int r_axe_x = axePos_x + rectWidth;
     int u_axe_y = axePos_y;
-    int b_axe_y = axePos_y + height;
+    int b_axe_y = axePos_y + rectheight;
     
     // here we set the collision for axe
     bool collision_with_axe = ((l_axe_x <= r_circle_x) && 
@@ -52,7 +52,7 @@ int main()
              l_axe_x = axePos_x;
              r_axe_x = axePos_x + rectWidth;
              u_axe_y = axePos_y;
-             b_axe_y = axePos_y + height;
+             b_axe_y = axePos_y + rectheight;
 
              //update the collision_with_axe
              collision_with_axe = ((l_axe_x <= r_circle_x) && 
